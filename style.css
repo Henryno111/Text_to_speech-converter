@@ -86,3 +86,18 @@ select{
   background-position-x: calc(100% - 20px);
   background-position-y: 20px;
 }
+
+@media screen and (max-width: 590px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .row {
+    width: 100%;
+    flex-direction: column;
+  }
+}
